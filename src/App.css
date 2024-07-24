@@ -1,0 +1,42 @@
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* reused in other components */
+.desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: clamp(14px, 1.4vw, 32px);
+  color: #8b8c89;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: clamp(32px, 4vw, 96px);
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title:before,
+.title:after {
+  content: "";
+  color: #8b8c89;
+  border-top: 1px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.title:after {
+  margin: 0 0 0 20px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+}

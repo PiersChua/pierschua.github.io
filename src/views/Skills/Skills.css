@@ -1,0 +1,28 @@
+.skills {
+  padding: 150px 15% 0 15%;
+  min-height: 500px;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.skills-container {
+  display: grid;
+  gap: 2rem;
+  min-height: 100px;
+}
+
+@media (min-width: 1024px) {
+  /* Three columns in one row */
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* One column in three rows */
+  .skills-container {
+    grid-template-rows: repeat(3, 1fr);
+  }
+}

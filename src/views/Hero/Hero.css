@@ -1,0 +1,23 @@
+.hero {
+  padding: 20px 15%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -15vh;
+  flex-wrap: wrap;
+}
+
+.hero-greeting {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: clamp(10px, 1vw, 28px);
+  color: #20c997;
+}
+
+.hero-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: clamp(32px, 4vw, 96px);
+  color: #ffffff;
+}

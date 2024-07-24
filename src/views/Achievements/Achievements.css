@@ -1,0 +1,21 @@
+.achievements {
+  padding: 150px 15% 0 15%;
+  min-height: 500px;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.achievements-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+
+@media (max-width: 767px) {
+  .achievements-container {
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: auto;
+  }
+}

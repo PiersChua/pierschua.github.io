@@ -1,0 +1,26 @@
+.contact-links {
+  gap: 1rem;
+  font-size: 20px;
+  display: flex;
+}
+
+.contact-links a {
+  color: #f8f9fa;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  transform: scale(1.2);
+  color: #8b8c89;
+}
+.contact-links.small {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1023px) {
+  .contact-links {
+    display: none;
+  }
+}

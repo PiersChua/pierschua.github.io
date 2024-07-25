@@ -25,14 +25,6 @@
   transition: 0.5s;
 }
 
-.card-image-container:hover span {
-  opacity: 1;
-}
-
-.card-image-container:hover img {
-  filter: blur(3px);
-}
-
 .card-title {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -44,6 +36,15 @@
 .card-footer button {
   width: 100%;
   font-family: "Roboto", sans-serif;
+}
+@media (min-width: 1024px) {
+  .card-image-container:hover span {
+    opacity: 1;
+  }
+
+  .card-image-container:hover img {
+    filter: blur(3px);
+  }
 }
 
 @media (max-width: 1023px) {

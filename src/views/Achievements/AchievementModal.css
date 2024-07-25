@@ -17,6 +17,10 @@
   font-size: 20px;
 }
 
+.modal-header span {
+  cursor: pointer;
+}
+
 .modal-body {
   display: flex;
   flex-direction: column;
@@ -24,8 +28,26 @@
   gap: 1em;
 }
 
+.modal-image-container {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+}
+
 .modal-image {
   border: 1px solid #000000;
-  max-height: 40vh;
+  max-height: 500px;
   width: auto;
+}
+
+@media (max-width: 1023px) {
+  .modal-image-container {
+    grid-template-columns: auto;
+  }
+
+  .modal-image {
+    max-width: 50%;
+  }
 }

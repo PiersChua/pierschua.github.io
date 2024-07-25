@@ -15,26 +15,29 @@ const AchievementModal = ({ modalVisible, closeModal, achievement }: Props) => {
   useEffect(() => {
     if (modalVisible && achievement) {
       const img = new Image();
-      img.src = achievement.modalImage;
+      img.src = achievement.modalImage[0];
       img.onload = () => setModalImageLoaded(true);
     } else setModalImageLoaded(false);
   }, [modalVisible]);
   return (
     <div>
       <div className={`modal ${modalImageLoaded ? "modal-show" : ""}`}>
-        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title">{achievement?.title}</h5>
-              <button
-                type="button"
+              <span
                 className="btn-close"
                 onClick={closeModal}
                 aria-label="Close"
-              ></button>
+              ></span>
             </div>
             <div className="modal-body">
-              <img className="modal-image" src={achievement?.modalImage} />
+              <div className="modal-image-container">
+                {achievement?.modalImage.map((image) => (
+                  <img className="modal-image" src={image} />
+                ))}
+              </div>
               <p
                 dangerouslySetInnerHTML={{
                   __html: achievement?.desc || "",

@@ -1,7 +1,7 @@
 export interface Achievement {
   id: number;
   cardImage: string;
-  modalImage: string;
+  modalImage: string[];
   title: string;
   desc: string;
 }

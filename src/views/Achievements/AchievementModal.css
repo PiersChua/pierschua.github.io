@@ -42,6 +42,20 @@
   width: auto;
 }
 
+.modal-btn {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background-color: #003366;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.modal-btn:hover {
+  background-color: #001f3d;
+}
+
 @media (max-width: 1023px) {
   .modal-image-container {
     grid-template-columns: auto;

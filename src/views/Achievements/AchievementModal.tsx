@@ -45,11 +45,7 @@ const AchievementModal = ({ modalVisible, closeModal, achievement }: Props) => {
               ></p>
             </div>
             <div className="modal-footer">
-              <button
-                type="button"
-                onClick={closeModal}
-                className="btn btn-secondary"
-              >
+              <button type="button" onClick={closeModal} className="modal-btn">
                 Close
               </button>
             </div>

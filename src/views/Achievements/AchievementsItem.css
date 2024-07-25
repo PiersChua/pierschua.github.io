@@ -1,6 +1,6 @@
 .card {
   border: none;
-  border: 1px solid #8b8c89;
+  border: 1px solid #ffffff;
   transition: 0.5s;
 }
 
@@ -33,10 +33,21 @@
 .card-footer {
   display: none;
 }
-.card-footer button {
+.card-btn {
+  padding: 0.5rem;
   width: 100%;
+  border: none;
+  border-radius: 5px;
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background-color: #003366;
+  transition: background-color 0.3s ease-in-out;
 }
+
+.card-btn:hover {
+  background-color: #001f3d;
+}
+
 @media (min-width: 1024px) {
   .card-image-container:hover span {
     opacity: 1;

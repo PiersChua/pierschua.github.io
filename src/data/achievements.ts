@@ -38,16 +38,16 @@ export const achievements: Achievement[] = [
   },
   {
     id: 6,
-    cardImage: "./2020_Edusave.jpg",
-    modalImage: ["./2020_Edusave_Award.jpeg", "./2020_Edusave_Merit.jpeg"],
-    title: "2020 Edusave Award",
-    desc: "Honored for being among the <b>top 25%</b> in terms of academic performance and demonstrated good conduct in secondary&nbsp;3",
+    cardImage: "./2021_AMC.jpg",
+    modalImage: ["./2021_AMC_Cert.jpeg"],
+    title: "AMC Certificate of Proficiency",
+    desc: "Represented the school in the <b>Australian Mathematics Competiton</b> in 2020 and 2021, earning a proficiency certificate for meeting the score threshold in 2021",
   },
   {
     id: 7,
-    cardImage: "./2021_AMC.jpg",
-    modalImage: ["./2021_AMC_Cert.jpeg"],
-    title: "2021 Edusave Award",
+    cardImage: "./2020_Edusave.jpg",
+    modalImage: ["./2020_Edusave_Award.jpeg", "./2020_Edusave_Merit.jpeg"],
+    title: "2020 Edusave Award",
     desc: "Honored for being among the <b>top 25%</b> in terms of academic performance and demonstrated good conduct in secondary&nbsp;3",
   },
 ];

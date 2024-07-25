@@ -34,11 +34,8 @@ const AchievementsItem = ({
           ></p>
         </div>
         <div className="card-footer text-end w-100">
-          <button
-            className="btn btn-secondary"
-            onClick={() => onSetModalVisible(id)}
-          >
-            View
+          <button className="card-btn" onClick={() => onSetModalVisible(id)}>
+            View Details
           </button>
         </div>
       </div>

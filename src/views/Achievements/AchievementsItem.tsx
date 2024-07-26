@@ -1,11 +1,11 @@
 import "./AchievementsItem.css";
+import Card from "react-bootstrap/Card";
 
 interface Props {
   id: number;
   cardImage: string;
   title: string;
   desc: string;
-  modalVisible: boolean;
   onSetModalVisible: (id: number) => void;
 }
 const AchievementsItem = ({
@@ -16,30 +16,25 @@ const AchievementsItem = ({
   onSetModalVisible,
 }: Props) => {
   return (
-    <div>
-      <div className="card h-100">
-        <a
-          className="card-image-container"
-          title="View Details"
-          onClick={() => onSetModalVisible(id)}
-        >
-          <img src={cardImage} className="card-img-top" alt="..." />
-          <span className="bi bi-box-arrow-up-right"></span>
-        </a>
-        <div className="card-body">
-          <h5 className="card-title">{title}</h5>
-          <p
-            className="card-text"
-            dangerouslySetInnerHTML={{ __html: desc }}
-          ></p>
-        </div>
-        <div className="card-footer text-end w-100">
-          <button className="card-btn" onClick={() => onSetModalVisible(id)}>
-            View Details
-          </button>
-        </div>
-      </div>
-    </div>
+    <Card>
+      <a
+        className="card-image-container"
+        title="View Details"
+        onClick={() => onSetModalVisible(id)}
+      >
+        <img src={cardImage} className="card-img-top" alt="..." />
+        <span className="bi bi-box-arrow-up-right"></span>
+      </a>
+      <Card.Body>
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text" dangerouslySetInnerHTML={{ __html: desc }}></p>
+      </Card.Body>
+      <Card.Footer>
+        <button className="card-btn" onClick={() => onSetModalVisible(id)}>
+          View Details
+        </button>
+      </Card.Footer>
+    </Card>
   );
 };
 

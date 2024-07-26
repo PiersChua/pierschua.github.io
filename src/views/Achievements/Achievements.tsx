@@ -37,7 +37,6 @@ const Achievements = () => {
               title={data.title}
               desc={data.desc}
               onSetModalVisible={handleModalVisible}
-              modalVisible={modalVisible}
             ></AchievementsItem>
           ))}
         </div>

@@ -1,16 +1,3 @@
-.modal {
-  display: block !important; /*need to override the original css for modal container, will only show with display block*/
-  background-color: rgba(0, 0, 0, 0);
-  transition: background-color 0.3s ease-in-out;
-  visibility: hidden;
-}
-
-.modal-show {
-  visibility: visible; /*show the modal*/
-  display: block !important;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
 .modal-title {
   font-family: "Roboto", sans-serif;
   font-weight: 600;

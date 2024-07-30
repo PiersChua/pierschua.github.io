@@ -16,7 +16,7 @@ const AchievementsItem = ({
   onSetModalVisible,
 }: Props) => {
   return (
-    <Card>
+    <Card className="achievement-card">
       <a
         className="card-image-container"
         title="View Details"

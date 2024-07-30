@@ -3,6 +3,7 @@ import Hero from "./views/Hero/Hero";
 import About from "./views/About/About";
 import Skills from "./views/Skills/Skills";
 import Achievements from "./views/Achievements/Achievements";
+import Experience from "./views/Experience/Experience";
 import "./App.css";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <About></About>
         <Skills></Skills>
         <Achievements></Achievements>
+        <Experience></Experience>
       </div>
     </>
   );

@@ -1,8 +1,8 @@
-.card {
+.achievement-card {
   transition: transform 0.3s;
 }
 
-.card img {
+.achievement-card img {
   max-height: 150px;
   object-fit: cover;
 }
@@ -55,7 +55,7 @@
     filter: blur(3px);
   }
 
-  .card:hover {
+  .achievement-card:hover {
     transform: translateY(-10px);
   }
 }
@@ -64,5 +64,4 @@
   .card-footer {
     display: block;
   }
-  
 }

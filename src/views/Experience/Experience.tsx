@@ -12,7 +12,10 @@ const Experience = () => {
       <div className="experience-container py-5">
         <div className="main-timeline">
           {sortedExperiences.map((experience) => (
-            <ExperienceItem experience={experience}></ExperienceItem>
+            <ExperienceItem
+              key={experience.id}
+              experience={experience}
+            ></ExperienceItem>
           ))}
         </div>
       </div>

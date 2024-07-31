@@ -42,7 +42,7 @@ const ExperienceItem = ({ experience }: Props) => {
     <div>
       <div className={`timeline ${experience.id % 2 == 0 ? "left" : "right"}`}>
         <img
-          src="./ABOUT.jpeg"
+          src={experience.image}
           alt="Timeline circle"
           className="timeline-img"
         />

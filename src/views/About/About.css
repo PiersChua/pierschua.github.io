@@ -30,5 +30,6 @@
 @media (max-width: 1023px) {
   .about-desc {
     max-width: none;
+    text-align: justify;
   }
 }

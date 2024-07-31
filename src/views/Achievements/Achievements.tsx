@@ -32,10 +32,7 @@ const Achievements = () => {
           {achievements.map((data) => (
             <AchievementsItem
               key={data.id}
-              id={data.id}
-              cardImage={data.cardImage}
-              title={data.title}
-              desc={data.desc}
+              achievement={data}
               onSetModalVisible={handleModalVisible}
             ></AchievementsItem>
           ))}

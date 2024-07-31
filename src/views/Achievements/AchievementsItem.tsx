@@ -1,36 +1,34 @@
 import "./AchievementsItem.css";
 import Card from "react-bootstrap/Card";
+import { Achievement } from "../../types/achievement";
 
 interface Props {
-  id: number;
-  cardImage: string;
-  title: string;
-  desc: string;
+  achievement: Achievement;
   onSetModalVisible: (id: number) => void;
 }
-const AchievementsItem = ({
-  id,
-  cardImage,
-  title,
-  desc,
-  onSetModalVisible,
-}: Props) => {
+const AchievementsItem = ({ achievement, onSetModalVisible }: Props) => {
   return (
     <Card className="achievement-card">
       <a
         className="card-image-container"
         title="View Details"
-        onClick={() => onSetModalVisible(id)}
+        onClick={() => onSetModalVisible(achievement.id)}
       >
-        <img src={cardImage} className="card-img-top" alt="..." />
+        <img src={achievement.cardImage} className="card-img-top" alt="..." />
         <span className="bi bi-box-arrow-up-right"></span>
       </a>
       <Card.Body>
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text" dangerouslySetInnerHTML={{ __html: desc }}></p>
+        <h5 className="card-title">{achievement.title}</h5>
+        <p
+          className="card-text"
+          dangerouslySetInnerHTML={{ __html: achievement.desc }}
+        ></p>
       </Card.Body>
       <Card.Footer>
-        <button className="card-btn" onClick={() => onSetModalVisible(id)}>
+        <button
+          className="card-btn"
+          onClick={() => onSetModalVisible(achievement.id)}
+        >
           View Details
         </button>
       </Card.Footer>

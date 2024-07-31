@@ -6,10 +6,10 @@ import { useState } from "react";
 const Navbar = () => {
   const navLinks = [
     "About",
-    "Skills",
-    "Projects",
-    "Achievements",
     "Experience",
+    "Skills",
+    "Achievements",
+    "Projects",
   ];
   const [sideBarVisible, setSideBarVisible] = useState(false);
 

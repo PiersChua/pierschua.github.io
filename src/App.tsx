@@ -13,9 +13,9 @@ const App = () => {
       <div className="content">
         <Hero></Hero>
         <About></About>
+        <Experience></Experience>
         <Skills></Skills>
         <Achievements></Achievements>
-        <Experience></Experience>
       </div>
     </>
   );

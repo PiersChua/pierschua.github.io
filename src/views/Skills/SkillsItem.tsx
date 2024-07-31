@@ -1,16 +1,16 @@
 import "./SkillsItem.css";
+import { Skill } from "../../types/skill";
 
 interface Props {
-  category: string;
-  skills: string[];
+  skill: Skill;
 }
-const SkillsItem = ({ category, skills }: Props) => {
+const SkillsItem = ({ skill }: Props) => {
   return (
     <div className="skill-item">
-      <h2 className="skill-item-title">{category}</h2>
+      <h2 className="skill-item-title">{skill.title}</h2>
       <ul>
-        {skills.map((skill) => (
-          <li key={skill}>{skill}</li>
+        {skill.items.map((item) => (
+          <li key={item}>{item}</li>
         ))}
       </ul>
     </div>

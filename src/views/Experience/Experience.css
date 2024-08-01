@@ -14,7 +14,7 @@
 .main-timeline::after {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 3px;
   background-color: #8b8c89;
   top: 0;
   bottom: 0;
@@ -25,6 +25,6 @@
 @media screen and (max-width: 1023px) {
   /* Place the timelime to the left */
   .main-timeline::after {
-    left: 31px;
+    left: 34px;
   }
 }

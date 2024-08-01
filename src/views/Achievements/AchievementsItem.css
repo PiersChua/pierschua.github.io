@@ -26,7 +26,11 @@
 .card-title {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+}
+
+.card-text {
+  font-size: clamp(12px, 1.1vw, 20px);
+  font-family: "Roboto", sans-serif;
 }
 .card-footer {
   display: none;

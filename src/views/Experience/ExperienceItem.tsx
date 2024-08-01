@@ -39,23 +39,24 @@ const ExperienceItem = ({ experience }: Props) => {
     };
   }, []);
   return (
-    <div>
-      <div className={`timeline ${experience.id % 2 == 0 ? "left" : "right"}`}>
-        <img
-          src={experience.image}
-          alt="Timeline circle"
-          className="timeline-img"
-        />
-        <Card
-          data-aos={experience.id % 2 == 0 ? fadeRight : fadeLeft}
-          className="timeline-card"
-        >
-          <Card.Body className="p-4">
-            <h3>{experience.title}</h3>
-            <p className="mb-0">{experience.desc}</p>
-          </Card.Body>
-        </Card>
-      </div>
+    <div className={`timeline ${experience.id % 2 == 0 ? "left" : "right"}`}>
+      <img
+        src={experience.timelineImage}
+        alt="Timeline circle"
+        className="timeline-img"
+      />
+      <Card
+        data-aos={experience.id % 2 == 0 ? fadeRight : fadeLeft}
+        className="timeline-card"
+      >
+        <Card.Body className="p-4">
+          <h3>
+            {experience.title}
+            <img src={experience.titleImage} />
+          </h3>
+          <p className="mb-0">{experience.desc}</p>
+        </Card.Body>
+      </Card>
     </div>
   );
 };

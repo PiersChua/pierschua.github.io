@@ -28,6 +28,19 @@
 
 .timeline-card p {
   text-align: justify;
+  font-size: clamp(12px, 1.1vw, 20px);
+  font-family: "Roboto", sans-serif;
+}
+
+.timeline-card h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: clamp(20px, 1.4vw, 28px);
+}
+
+.timeline-card h3 img {
+  width: 1em;
+  height: 1em;
 }
 
 /* Place the container to the left */

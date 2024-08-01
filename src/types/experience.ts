@@ -1,6 +1,7 @@
 export interface Experience {
   id: number;
   title: string;
-  image: string;
+  titleImage: string;
+  timelineImage: string;
   desc: string;
 }

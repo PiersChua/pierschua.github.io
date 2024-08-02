@@ -14,6 +14,10 @@ const ProjectsItem = ({ project }: Props) => (
           {project.title} <span className="bi bi-arrow-up-right"></span>
         </h2>
       </a>
+      <small>
+        <span className="bi bi-calendar3"></span> {project.startDate} -{" "}
+        {project.endDate}
+      </small>
       <div className="project-item-bar"></div>
       <div className="project-item-desc">{project.desc}</div>
       <ul className="project-item-skills">

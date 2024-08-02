@@ -27,7 +27,7 @@ const Achievements = () => {
         achievement={modalAchievement || null}
       ></AchievementModal>
       <div className="achievements" id="achievements">
-        <h1 className="title">My trophies</h1>
+        <h1 className="title">My achievements</h1>
         <div className="achievements-container">
           {achievements.map((data) => (
             <AchievementsItem

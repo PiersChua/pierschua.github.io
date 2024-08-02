@@ -24,16 +24,15 @@
 
 .timeline-card {
   border: none !important;
+  font-family: "Roboto", sans-serif;
 }
 
 .timeline-card p {
   text-align: justify;
   font-size: clamp(14px, 1.1vw, 20px);
-  font-family: "Roboto", sans-serif;
 }
 
 .timeline-card h3 {
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: clamp(20px, 1.4vw, 28px);
 }

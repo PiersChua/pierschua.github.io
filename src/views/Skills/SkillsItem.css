@@ -16,7 +16,7 @@
 }
 
 .skill-item ul {
-  font-size: clamp(10px, 1vw, 20px);
+  font-size: clamp(14px, 1.1vw, 20px);
   padding: 5px;
   color: #f8f9fa;
   list-style-type: none;

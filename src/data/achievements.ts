@@ -13,7 +13,7 @@ export const achievements: Achievement[] = [
     cardImage: "./2023_DList.jpg",
     modalImage: ["./2023_DList_Award.webp"],
     title: "2023 Director's List Award",
-    desc: "Honored for exceptional academic performance, ranking in the <b>top 10%</b> of freshmans at polytechnic",
+    desc: "Honored for exceptional academic performance, ranking in the <b>top 10%</b> of freshmen at polytechnic",
   },
   {
     id: 3,
@@ -39,9 +39,9 @@ export const achievements: Achievement[] = [
   {
     id: 6,
     cardImage: "./2021_AMC.jpg",
-    modalImage: ["./2021_AMC_Cert.webp"],
-    title: "AMC Certificate of Proficiency",
-    desc: "Represented the school in the <b>Australian Mathematics Competiton</b> in 2020 and 2021, earning a proficiency certificate for meeting the score threshold in 2021",
+    modalImage: ["./2021_AMC_Cert.webp", "./2020_AMC_Cert.webp"],
+    title: "2021 & 2020 AMC Certificate",
+    desc: "Represented the school in the <b>Australian Mathematics Competiton</b> in 2020 and 2021, earning a <b>proficiency certificate</b>",
   },
   {
     id: 7,

@@ -4,6 +4,7 @@ import About from "./views/About/About";
 import Skills from "./views/Skills/Skills";
 import Achievements from "./views/Achievements/Achievements";
 import Experience from "./views/Experience/Experience";
+import Projects from "./views/Projects/Projects";
 import "./App.css";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Experience></Experience>
         <Skills></Skills>
         <Achievements></Achievements>
+        <Projects></Projects>
       </div>
     </>
   );

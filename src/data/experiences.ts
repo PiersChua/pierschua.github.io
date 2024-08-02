@@ -13,6 +13,6 @@ export const experiences: Experience[] = [
     title: "2024 - Housing Development Board (HDB) ",
     titleImage: "./HDB_LOGO.png",
     timelineImage: "./HDB_Experience.jpeg",
-    desc: "During my final year at TP, I was attached to a 19-week internship with HDB to develop a foot-mounted IMU prototype to faciliate mapping GNSS-denied areas in Singapore.",
+    desc: "During my final year at TP, I was attached to a 19-week internship with HDB to develop a foot-mounted IMU prototype to facilitate mapping GNSS-denied areas in Singapore.",
   },
 ];

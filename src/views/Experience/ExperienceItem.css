@@ -28,7 +28,7 @@
 
 .timeline-card p {
   text-align: justify;
-  font-size: clamp(12px, 1.1vw, 20px);
+  font-size: clamp(14px, 1.1vw, 20px);
   font-family: "Roboto", sans-serif;
 }
 

@@ -12,19 +12,31 @@
 
   .project-item-title {
     font-size: clamp(20px, 1.8vw, 36px);
+    color: #f8f9fa;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-  }
+    transition: color 0.3s ease;
 
+    span {
+      font-size: 0.7em;
+      transition: 0.3s ease;
+      display: inline-block;
+    }
+    &:hover {
+      color: #adb5bd;
+      span {
+        transform: translate(5px, -5px);
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+  }
   .project-item-img {
     width: 100%;
     max-height: 150px;
     object-fit: cover;
     position: relative;
-  }
-
-  .project-item-link {
-    display: contents;
   }
 
   .project-item-content {
@@ -35,7 +47,7 @@
   }
 
   .project-item-desc {
-    overflow: hidden;
+    flex: 1;
     text-overflow: ellipsis;
     text-align: justify;
     height: 100%;
@@ -43,7 +55,7 @@
 
   .project-item-skills {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     font-size: 14px;
     margin: 20px 0 0 0;
     padding: 0;
@@ -77,9 +89,6 @@
       max-width: 300px;
       max-height: 100%;
       transition: transform 0.3s ease;
-      &:hover {
-        filter: blur(3px);
-      }
     }
 
     .project-item-content {
@@ -97,7 +106,7 @@
     }
     .project-item-bar {
       width: 50px;
-      height: 10px;
+      height: 3px;
       margin: 10px 0;
       border-radius: 5px;
       background-color: #424242;

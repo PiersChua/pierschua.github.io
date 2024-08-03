@@ -2,12 +2,12 @@ import { Project } from "../types/project";
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Airbnb Web Scraper",
-    startDate: "July 2024",
-    endDate: "Present",
-    desc: "Web scraping program to extract data from Airbnb listings using bs4 and Selenium.",
-    image: "./2024_DList.jpg",
-    skills: ["Python", "BeautifulSoup4", "Selenium"],
+    title: "Wildfire Data Analysis",
+    startDate: "Apr 2023",
+    endDate: "Sep 2023",
+    desc: "Analysis of wildfire data to visualize impact and reveal underlying trends over the years",
+    image: "./project_thumbnail_1.png",
+    skills: ["Tableau", "KNIME"],
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     startDate: "Oct 2023",
     endDate: "Mar 2024",
     desc: "CNN model with >90% validation accuracy to recognize 5 types of transportation infrastructures",
-    image: "./2024_DList.jpg",
+    image: "./project_thumbnail_2.png",
     skills: ["Python", "Tensorflow"],
   },
   {
@@ -23,9 +23,9 @@ export const projects: Project[] = [
     title: "Smart Home System",
     startDate: "Oct 2023",
     endDate: "Mar 2024",
-    desc: "A system utilising IoT applications to remotely monitor and control home devices.",
-    image: "./2024_DList.jpg",
-    skills: ["Python", "Linux", "Flask", "MQTT"],
+    desc: "A system utilising IoT applications to remotely monitor and control home devices",
+    image: "./project_thumbnail_3.png",
+    skills: ["Python", "Ubuntu", "Flask", "MQTT", "Grafana"],
   },
   {
     id: 4,
@@ -33,7 +33,16 @@ export const projects: Project[] = [
     startDate: "Oct 2023",
     endDate: "Mar 2024",
     desc: "Restaurant Reservation website inspired by Chope",
-    image: "./2024_DList.jpg",
+    image: "./project_thumbnail_4.png",
     skills: ["ASP.NET Blazor", "HTML", "CSS", "JavaScript", "C#"],
+  },
+  {
+    id: 5,
+    title: "Airbnb Web Scraper",
+    startDate: "July 2024",
+    endDate: "Present",
+    desc: "Web scraping program to extract data from Airbnb listings using bs4 and Selenium",
+    image: "./project_thumbnail_5.png",
+    skills: ["Python", "BeautifulSoup4", "Selenium"],
   },
 ];

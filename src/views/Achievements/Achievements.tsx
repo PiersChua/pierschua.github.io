@@ -6,6 +6,9 @@ import { achievements } from "../../data/achievements";
 import { useState } from "react";
 
 const Achievements = () => {
+  const sortedAchievements = achievements.sort((a, b) => {
+    return b.id - a.id;
+  });
   const [modalVisible, setModalVisible] = useState(false);
   // account for null achievements
   const [modalAchievement, setModalAchievement] =
@@ -29,7 +32,7 @@ const Achievements = () => {
       <div className="achievements" id="achievements">
         <h1 className="title">My achievements</h1>
         <div className="achievements-container">
-          {achievements.map((data) => (
+          {sortedAchievements.map((data) => (
             <AchievementsItem
               key={data.id}
               achievement={data}

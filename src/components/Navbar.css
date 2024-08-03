@@ -81,6 +81,10 @@
   font-size: 40px;
   color: #f8f9fa;
   cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    color: #20c997;
+  }
 }
 
 .nav-sidebar-close {

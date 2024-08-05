@@ -11,7 +11,7 @@ const AchievementsItem = ({ achievement, onSetModalVisible }: Props) => {
     <Card className="achievement-card">
       <a
         className="card-image-container"
-        title="View Award"
+        title="View Achievement"
         onClick={() => onSetModalVisible(achievement.id)}
       >
         <img src={achievement.cardImage} className="card-img-top" alt="..." />

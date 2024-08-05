@@ -3,7 +3,10 @@ export interface Project {
   title: string;
   startDate: string;
   endDate: string;
-  desc: string;
-  image: string;
+  cardDesc: string;
+  modalDesc: string[];
+  cardImage: string;
+  modalImages: string[];
+  type: string;
   skills: string[];
 }

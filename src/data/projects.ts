@@ -5,8 +5,16 @@ export const projects: Project[] = [
     title: "Wildfire Data Analysis",
     startDate: "Apr 2023",
     endDate: "Sep 2023",
-    desc: "Analysis of wildfire data to visualize impact and reveal underlying trends over the years",
-    image: "./project_thumbnail_1.png",
+    cardDesc:
+      "Analysis of wildfire data to visualize impact and reveal underlying trends over the years",
+    modalDesc: [
+      "Analyzed wildfire data from Federal, Non-Federal and Interagency sources in the United States",
+      "Created a dashboard in Tableau with KPIs to visualize the impact of wildfire over the years",
+      "Implemented Logistic Regression in KNIME to predict Fire Size Class",
+    ],
+    cardImage: "./project_thumbnail_1.png",
+    modalImages: ["./project_1_1.webp", "./project_1_2.webp"],
+    type: "Coursework",
     skills: ["Tableau", "KNIME"],
   },
   {
@@ -14,8 +22,22 @@ export const projects: Project[] = [
     title: "Image Classification of Transportation Infrastructure",
     startDate: "Oct 2023",
     endDate: "Mar 2024",
-    desc: "CNN model with >90% validation accuracy to recognize 5 types of transportation infrastructures",
-    image: "./project_thumbnail_2.png",
+    cardDesc:
+      "Image recognition model to predict 5 types of transportation infrastructure",
+    modalDesc: [
+      "Developed a Convolutional Neural Network (CNN) model with >90% validation accuracy to recognize Transportation Infrastructures",
+      "Incorporated pre-trained models like VGG-16 to optimize the development accuracy",
+      "Implemented Image Classification API service to deploy the trained model in a Flask app",
+    ],
+    cardImage: "./project_thumbnail_2.png",
+    modalImages: [
+      "./project_2_1.webp",
+      "./project_2_2.webp",
+      "./project_2_3.webp",
+      "./project_2_4.webp",
+      "./project_2_5.webp",
+    ],
+    type: "Coursework",
     skills: ["Python", "Tensorflow"],
   },
   {
@@ -23,8 +45,23 @@ export const projects: Project[] = [
     title: "Smart Home System",
     startDate: "Oct 2023",
     endDate: "Mar 2024",
-    desc: "A system utilising IoT applications to remotely monitor and control home devices",
-    image: "./project_thumbnail_3.png",
+    cardDesc:
+      "A system utilising IoT applications to remotely monitor and control home devices",
+    cardImage: "./project_thumbnail_3.png",
+    modalDesc: [
+      "Built a smart home system integrating Raspberry PI and IoT sensors in Ubuntu",
+      "Created a Flask Application with REST API to control room lights and adjust air-conditioner",
+      "Deployed MQTT to monitor temperature and humidity in real-time",
+      "Designed a Grafana dashboard to aid in visualization of sensor data",
+    ],
+    modalImages: [
+      "./project_3_1.webp",
+      "./project_3_2.webp",
+      "./project_3_3.webp",
+      "./project_3_4.webp",
+      "./project_3_5.webp",
+    ],
+    type: "Coursework",
     skills: ["Python", "Ubuntu", "Flask", "MQTT", "Grafana"],
   },
   {
@@ -32,8 +69,21 @@ export const projects: Project[] = [
     title: "BookBite",
     startDate: "Oct 2023",
     endDate: "Mar 2024",
-    desc: "Restaurant Reservation website inspired by Chope",
-    image: "./project_thumbnail_4.png",
+    cardDesc: "Restaurant Reservation website inspired by Chope",
+    modalDesc: [
+      "Designed a restaurant reservation website with Bootstrap CSS",
+      "Utilized SQL for database storage, with the Unit of Work pattern to manage booking transactions",
+    ],
+    cardImage: "./project_thumbnail_4.png",
+    modalImages: [
+      "./project_4_1.webp",
+      "./project_4_2.webp",
+      "./project_4_3.webp",
+      "./project_4_4.webp",
+      "./project_4_5.webp",
+      "./project_4_6.webp",
+    ],
+    type: "Coursework",
     skills: ["ASP.NET Blazor", "HTML", "CSS", "JavaScript", "C#"],
   },
   {
@@ -41,8 +91,12 @@ export const projects: Project[] = [
     title: "Airbnb Web Scraper",
     startDate: "July 2024",
     endDate: "Present",
-    desc: "Web scraping program to extract data from Airbnb listings using bs4 and Selenium",
-    image: "./project_thumbnail_5.png",
+    cardDesc:
+      "Web scraping program to extract data from Airbnb listings using bs4 and Selenium",
+    modalDesc: [""],
+    cardImage: "./project_thumbnail_5.png",
+    modalImages: [""],
+    type: "Personal",
     skills: ["Python", "BeautifulSoup4", "Selenium"],
   },
 ];

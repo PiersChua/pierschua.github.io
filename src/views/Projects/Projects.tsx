@@ -31,7 +31,7 @@ const Projects = () => {
   useEffect(() => {
     const allImages = sortedProjects.flatMap((project) => project.modalImages);
     preloadImages(allImages);
-  }, [sortedProjects]);
+  }, []);
   return (
     <div>
       <ProjectModal

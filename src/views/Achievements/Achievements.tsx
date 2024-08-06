@@ -3,7 +3,7 @@ import AchievementsItem from "./AchievementsItem";
 import AchievementModal from "./AchievementModal";
 import { Achievement } from "../../types/achievement";
 import { achievements } from "../../data/achievements";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Achievements = () => {
   const sortedAchievements = achievements.sort((a, b) => {
@@ -14,13 +14,27 @@ const Achievements = () => {
   const [modalAchievement, setModalAchievement] =
     useState<Achievement | null>();
   const handleModalVisible = (id: number) => {
-    setModalVisible(!modalVisible);
     // find the first element that corresponds to the same id
     setModalAchievement(achievements.find((data) => data.id == id) || null);
+    setModalVisible(!modalVisible);
   };
   const closeModal = () => {
     setModalVisible(false);
   };
+
+  // const preloadImages = (images: string[]) => {
+  //   images.forEach((src) => {
+  //     const img = new Image();
+  //     img.src = src;
+  //   });
+  // };
+
+  // useEffect(() => {
+  //   const allImages = sortedAchievements.flatMap(
+  //     (achievement) => achievement.modalImage
+  //   );
+  //   preloadImages(allImages);
+  // }, []);
 
   return (
     <div>

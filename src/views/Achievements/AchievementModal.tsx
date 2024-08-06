@@ -26,7 +26,12 @@ const AchievementModal = ({ modalVisible, closeModal, achievement }: Props) => {
       <Modal.Body>
         <div className="modal-image-container">
           {achievement?.modalImage.map((image) => (
-            <img className="modal-image" key={image} src={image} />
+            <img
+              className="modal-image"
+              key={image}
+              src={image}
+              loading="lazy"
+            />
           ))}
         </div>
         <p

@@ -27,7 +27,7 @@ const ProjectModal = ({ modalVisible, closeModal, project }: Props) => {
       <Carousel fade interval={null}>
         {project?.modalImages.map((image) => (
           <Carousel.Item className="project-modal-carousel-item">
-            <img src={image} />
+            <img src={image} loading="lazy" />
           </Carousel.Item>
         ))}
       </Carousel>

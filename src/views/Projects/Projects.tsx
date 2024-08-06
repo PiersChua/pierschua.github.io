@@ -3,7 +3,7 @@ import ProjectModal from "./ProjectModal";
 import "./Projects.css";
 import { projects } from "../../data/projects";
 import { Project } from "../../types/project";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Projects = () => {
   const sortedProjects = projects.sort((a, b) => {
@@ -14,13 +14,24 @@ const Projects = () => {
   // account for null projects
   const [modalProject, setModalProject] = useState<Project | null>();
   const handleModalVisible = (id: number) => {
-    setModalVisible(!modalVisible);
     // find the first element that corresponds to the same id
     setModalProject(projects.find((data) => data.id == id) || null);
+    setModalVisible(!modalVisible);
   };
   const closeModal = () => {
     setModalVisible(false);
   };
+  const preloadImages = (images: string[]) => {
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  };
+
+  useEffect(() => {
+    const allImages = sortedProjects.flatMap((project) => project.modalImages);
+    preloadImages(allImages);
+  }, [sortedProjects]);
   return (
     <div>
       <ProjectModal

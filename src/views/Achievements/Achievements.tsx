@@ -22,19 +22,19 @@ const Achievements = () => {
     setModalVisible(false);
   };
 
-  // const preloadImages = (images: string[]) => {
-  //   images.forEach((src) => {
-  //     const img = new Image();
-  //     img.src = src;
-  //   });
-  // };
+  const preloadImages = (images: string[]) => {
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  };
 
-  // useEffect(() => {
-  //   const allImages = sortedAchievements.flatMap(
-  //     (achievement) => achievement.modalImage
-  //   );
-  //   preloadImages(allImages);
-  // }, []);
+  useEffect(() => {
+    const allImages = sortedAchievements.flatMap(
+      (achievement) => achievement.modalImage
+    );
+    preloadImages(allImages);
+  }, []);
 
   return (
     <div>

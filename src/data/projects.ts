@@ -49,7 +49,7 @@ export const projects: Project[] = [
       "A system utilising IoT applications to remotely monitor and control home devices",
     cardImage: "./project_thumbnail_3.png",
     modalDesc: [
-      "Built a smart home system integrating Raspberry PI and IoT sensors in Ubuntu",
+      "Built a smart home system integrating Raspberry PI and IoT sensors like BME280 in Ubuntu",
       "Created a Flask Application with REST API to control room lights and adjust air-conditioner",
       "Deployed MQTT to monitor temperature and humidity in real-time",
       "Designed a Grafana dashboard to aid in visualization of sensor data",
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     endDate: "Mar 2024",
     cardDesc: "Restaurant Reservation website inspired by Chope",
     modalDesc: [
-      "Designed a restaurant reservation website with Bootstrap CSS",
+      "Designed the restaurant reservation website with Bootstrap CSS",
       "Utilized SQL for database storage, with the Unit of Work pattern to manage booking transactions",
     ],
     cardImage: "./project_thumbnail_4.png",
@@ -93,9 +93,12 @@ export const projects: Project[] = [
     endDate: "Present",
     cardDesc:
       "Web scraping program to extract data from Airbnb listings using bs4 and Selenium",
-    modalDesc: [""],
+    modalDesc: [
+      "Developed an automated program to scrape details of Airbnb listings",
+      "Enhanced program's efficiency by using ThreadPoolExecutor to scrape multiple listings concurrently",
+    ],
     cardImage: "./project_thumbnail_5.png",
-    modalImages: [""],
+    modalImages: ["project_5_1.webp", "project_5_2.webp"],
     type: "Personal",
     skills: ["Python", "BeautifulSoup4", "Selenium"],
   },

@@ -1,12 +1,44 @@
 .carousel {
   padding: 20px;
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
 }
 
 .project-modal-carousel-item img {
   width: 100%;
   height: 400px;
   object-fit: contain;
-  border: 1px solid #000000;
+}
+
+.project-modal-carousel-indicators {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-modal-carousel-indicators .carousel-indicators-item {
+  list-style-type: none;
+  img {
+    border: 1px solid #000000;
+    cursor: pointer;
+    width: auto;
+    height: 30px;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+  }
+}
+
+.project-modal-carousel-indicators .carousel-indicators-item.active img,
+.project-modal-carousel-indicators .carousel-indicators-item:hover img {
+  opacity: 1;
 }
 
 @media (max-width: 1023px) {

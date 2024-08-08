@@ -11,7 +11,7 @@ export const skills: Skill[] = [
       "C#",
       "Java",
       "JavaScript",
-      "MySQL",
+      "SQL",
       "HTML/CSS",
     ],
   },

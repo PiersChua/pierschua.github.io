@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 
-.modal-body {
+.achievement-modal-body {
   display: flex;
   flex-direction: column;
   align-items: center;

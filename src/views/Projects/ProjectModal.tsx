@@ -27,26 +27,27 @@ const ProjectModal = ({ modalVisible, closeModal, project }: Props) => {
       keyboard={false}
       size="lg"
       centered
-      scrollable={false}
+      scrollable={true}
     >
       <Modal.Header>
         <Modal.Title>{project?.title}</Modal.Title>
         <span className="btn-close" onClick={closeModal}></span>
       </Modal.Header>
-      <Carousel
-        slide={false}
-        interval={null}
-        activeIndex={activeIndex}
-        onSelect={handleSelect}
-        indicators={false}
-      >
-        {project?.modalImages.map((image) => (
-          <Carousel.Item className="project-modal-carousel-item">
-            <img src={image} />
-          </Carousel.Item>
-        ))}
-      </Carousel>
-      <Modal.Body>
+      <Modal.Body className="project-modal-body">
+        <Carousel
+          slide={false}
+          interval={null}
+          activeIndex={activeIndex}
+          onSelect={handleSelect}
+          indicators={false}
+        >
+          {project?.modalImages.map((image) => (
+            <Carousel.Item className="project-modal-carousel-item">
+              <img src={image} />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+
         <ul className="project-modal-carousel-indicators">
           {project?.modalImages.map((image, index) => (
             <li

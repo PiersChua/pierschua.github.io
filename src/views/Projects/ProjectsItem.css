@@ -15,6 +15,7 @@
     color: #f8f9fa;
     font-weight: 600;
     transition: color 0.3s ease;
+    cursor: pointer;
 
     span {
       font-size: 0.7em;

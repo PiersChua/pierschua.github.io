@@ -15,11 +15,13 @@ const ProjectsItem = ({ project, onSetModalVisible }: Props) => {
         alt={project.title}
       />
       <div className="project-item-content">
-        <a title="View Project" onClick={() => onSetModalVisible(project.id)}>
-          <h2 className="project-item-title">
-            {project.title} <span className="bi bi-arrow-up-right"></span>
-          </h2>
-        </a>
+        <h2
+          className="project-item-title"
+          title="View Project"
+          onClick={() => onSetModalVisible(project.id)}
+        >
+          {project.title} <span className="bi bi-arrow-up-right"></span>
+        </h2>
         <small>
           <span className="bi bi-calendar3"></span> {project.startDate} -{" "}
           {project.endDate}

@@ -62,7 +62,7 @@ export const projects: Project[] = [
       "./project_3_5.webp",
     ],
     type: "Coursework",
-    skills: ["Python", "Ubuntu", "Flask", "MQTT", "Grafana"],
+    skills: ["Python", "Ubuntu", "Flask", "MQTT", "Grafana", "Raspberry Pi"],
   },
   {
     id: 4,

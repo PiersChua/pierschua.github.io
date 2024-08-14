@@ -4,7 +4,8 @@ export interface Project {
   startDate: string;
   endDate: string;
   cardDesc: string;
-  modalDesc: string[];
+  modalDescs: string[];
+  problemStatement?: string;
   cardImage: string;
   modalImages: string[];
   type: string;

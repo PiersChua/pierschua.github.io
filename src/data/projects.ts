@@ -7,11 +7,13 @@ export const projects: Project[] = [
     endDate: "Sep 2023",
     cardDesc:
       "Analysis of wildfire data to visualize impact and reveal underlying trends over the years",
-    modalDesc: [
+    modalDescs: [
       "Analyzed wildfire data from Federal, Non-Federal and Interagency sources in the United States",
       "Created a dashboard in Tableau with KPIs to visualize the impact of wildfire over the years",
       "Implemented Logistic Regression in KNIME to predict Fire Size Class",
     ],
+    problemStatement:
+      "According to the Congressional Research Service (CRS), there were an average of 61,410 wildfires annually from 2013 to 2022, generating over 7.2 million acres of impact. With its increasing frequency, severity, and duration, wildfire exist as a grave issue in the United States. Therefore, analyzing wildfires is crucial to help relevant agencies understand its patterns, behaviors, and characteristics.",
     cardImage: "./project_thumbnail_1.png",
     modalImages: ["./project_1_1.webp", "./project_1_2.webp"],
     type: "Coursework",
@@ -23,10 +25,12 @@ export const projects: Project[] = [
     startDate: "Apr 2023",
     endDate: "Sep 2023",
     cardDesc: "A food ordering application built in Eclipse",
-    modalDesc: [
+    modalDescs: [
       "Developed the app's interface with Java's swing library",
       "Implemented Model-View-Controller (MVC) design to separate business logic, data and GUI",
     ],
+    problemStatement:
+      "Customers at hawker centres often face long queues and wait times when ordering their food and drinks, leading to inconvenience and inefficiency. As such, there is a need for a streamlined ordering system that allows customers to conveniently place orders, reducing wait times and improving the overall dining experience.",
     cardImage: "./project_thumbnail_2.png",
     modalImages: [
       "./project_2_1.webp",
@@ -44,7 +48,7 @@ export const projects: Project[] = [
     endDate: "Mar 2024",
     cardDesc:
       "Image recognition model to predict 5 types of transportation infrastructure",
-    modalDesc: [
+    modalDescs: [
       "Developed a Convolutional Neural Network (CNN) model with >90% validation accuracy to recognize Transportation Infrastructures",
       "Incorporated pre-trained models like VGG-16 to optimize the development accuracy",
       "Implemented image classification API service to deploy the trained model in a flask app",
@@ -68,12 +72,14 @@ export const projects: Project[] = [
     cardDesc:
       "A system utilising IoT applications to remotely monitor and control home devices",
     cardImage: "./project_thumbnail_4.png",
-    modalDesc: [
+    modalDescs: [
       "Built a smart home system integrating Raspberry PI and IoT sensors like BME280 in Ubuntu",
       "Created a flask app with REST API to control room lights and adjust air-conditioner",
       "Deployed MQTT to monitor temperature and humidity in real-time",
       "Designed a Grafana dashboard to visualize time-series sensor data",
     ],
+    problemStatement:
+      "A real estate developer is seeking a smart home system for their condominium project with specific features to enhance the residents' comfort, convenience, and energy efficiency. Through the use of smart devices, he/she would be able to remotely access the home appliances.",
     modalImages: [
       "./project_4_1.webp",
       "./project_4_2.webp",
@@ -90,7 +96,7 @@ export const projects: Project[] = [
     startDate: "Oct 2023",
     endDate: "Mar 2024",
     cardDesc: "Restaurant Reservation website inspired by Chope",
-    modalDesc: [
+    modalDescs: [
       "Designed the restaurant reservation website with Bootstrap CSS",
       "Utilized SQL for database storage, with the Unit of Work pattern to manage CRUD operations across entities",
     ],
@@ -111,9 +117,8 @@ export const projects: Project[] = [
     title: "Airbnb Web Scraper",
     startDate: "July 2024",
     endDate: "Present",
-    cardDesc:
-      "Web scraping program to extract data from Airbnb listings using bs4 and Selenium",
-    modalDesc: [
+    cardDesc: "Web scraping program to extract data from Airbnb listings",
+    modalDescs: [
       "Developed an automated program to scrape details of Airbnb listings",
       "Enhanced program's efficiency by using ThreadPoolExecutor to scrape multiple listings concurrently",
     ],

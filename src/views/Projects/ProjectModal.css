@@ -19,7 +19,7 @@
 }
 
 .project-modal-carousel-indicators {
-  padding: 0;
+  padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -42,6 +42,10 @@
 .project-modal-carousel-indicators .carousel-indicators-item.active img,
 .project-modal-carousel-indicators .carousel-indicators-item:hover img {
   opacity: 1;
+}
+
+.project-problem {
+  padding: 20px 20px 0 32px;
 }
 
 @media (max-width: 1023px) {

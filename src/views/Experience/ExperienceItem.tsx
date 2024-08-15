@@ -1,5 +1,4 @@
 import "./ExperienceItem.css";
-import AOS from "aos";
 import Card from "react-bootstrap/Card";
 import { Experience } from "../../types/experience";
 import { useEffect, useState } from "react";
@@ -12,21 +11,12 @@ const ExperienceItem = ({ experience }: Props) => {
   const [fadeLeft, setFadeLeft] = useState("");
 
   useEffect(() => {
-    AOS.init({
-      duration: 800,
-      anchorPlacement: "top-bottom",
-      easing: "ease-in-out",
-      once: true,
-    });
-  }, []);
-
-  useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 1023) {
-        setFadeRight("fade"); // No animation for smaller screens
+        setFadeRight("fade"); // Fade animation for smaller screens
         setFadeLeft("fade");
       } else {
-        setFadeRight("fade-right"); // Animation for larger screens
+        setFadeRight("fade-right"); // Fade slide animation for larger screens
         setFadeLeft("fade-left");
       }
     };

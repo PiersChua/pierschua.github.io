@@ -6,8 +6,18 @@ import Achievements from "./views/Achievements/Achievements";
 import Experience from "./views/Experience/Experience";
 import Projects from "./views/Projects/Projects";
 import "./App.css";
+import { useEffect } from "react";
+import AOS from "aos";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      anchorPlacement: "top-bottom",
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
   return (
     <>
       <Navbar></Navbar>

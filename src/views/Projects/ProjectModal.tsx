@@ -63,12 +63,12 @@ const ProjectModal = ({ modalVisible, closeModal, project }: Props) => {
         </ul>
         {project?.problemStatement && (
           <p className="project-problem">
-            <b>Problem Statement:</b>
+            <b className="project-modal-desc-title">Problem Statement:</b>
             <p>{project?.problemStatement}</p>
           </p>
         )}
         <ul>
-          <b>Deliverables:</b>
+          <b className="project-modal-desc-title">Deliverables:</b>
           {project?.modalDescs.map((desc) => (
             <li>{desc}</li>
           ))}

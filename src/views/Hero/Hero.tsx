@@ -1,16 +1,6 @@
 import "./Hero.css";
-import AOS from "aos";
-import { useEffect } from "react";
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-      once: true,
-    });
-  }, []);
-
   return (
     <header className="hero">
       <p data-aos="fade-down" className="hero-greeting">

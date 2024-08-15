@@ -40,3 +40,14 @@
 
 @media (max-width: 767px) {
 }
+
+[data-aos="custom-fade-up"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+  transform: translateY(15px);
+
+  &.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

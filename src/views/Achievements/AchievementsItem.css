@@ -1,5 +1,6 @@
 .achievement-card {
   transition: transform 0.3s;
+  height: 100% !important;
 }
 
 .achievement-card img {

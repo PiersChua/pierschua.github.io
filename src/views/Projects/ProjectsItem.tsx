@@ -1,5 +1,6 @@
 import { Project } from "../../types/project";
 import "./ProjectsItem.css";
+import { useState, useEffect } from "react";
 
 interface Props {
   project: Project;
@@ -7,8 +8,32 @@ interface Props {
 }
 
 const ProjectsItem = ({ project, onSetModalVisible }: Props) => {
+  const [fadeRight, setFadeRight] = useState("");
+  const [fadeLeft, setFadeLeft] = useState("");
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1023) {
+        setFadeRight("custom-fade-up"); // Fade animation for smaller screens
+        setFadeLeft("custom-fade-up");
+      } else {
+        setFadeRight("custom-fade-right"); // Fade slide animation for larger screens
+        setFadeLeft("custom-fade-left");
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
-    <div className="project-item">
+    <div
+      className="project-item"
+      data-aos={project.id % 2 == 0 ? fadeRight : fadeLeft}
+    >
       <img
         className="project-item-img"
         src={project.cardImage}

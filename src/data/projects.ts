@@ -28,6 +28,7 @@ export const projects: Project[] = [
     modalDescs: [
       "Developed the app's interface with Java's swing library",
       "Implemented Model-View-Controller (MVC) design to separate business logic, data and GUI",
+      "Applied core object-oriented principles",
     ],
     problemStatement:
       "Customers at hawker centres often face long queues and wait times when ordering their food and drinks, leading to inconvenience and inefficiency. As such, there is a need for a streamlined ordering system that allows customers to conveniently place orders, reducing wait times and improving the overall dining experience.",
@@ -39,7 +40,7 @@ export const projects: Project[] = [
       "./project_2_4.webp",
     ],
     type: "Coursework",
-    skills: ["Java", "UML", "OOP"],
+    skills: ["Java", "UML", "OOP", "MVC"],
   },
   {
     id: 3,
@@ -100,6 +101,7 @@ export const projects: Project[] = [
       "Designed the restaurant reservation website with Bootstrap CSS",
       "Utilized SQL for database storage, with the Unit of Work pattern to manage CRUD operations across entities",
     ],
+    repository: "https://github.com/PiersChua/RestaurantReservation",
     cardImage: "./project_thumbnail_5.png",
     modalImages: [
       "./project_5_1.webp",
@@ -122,6 +124,7 @@ export const projects: Project[] = [
       "Developed an automated program to scrape details of Airbnb listings",
       "Enhanced program's efficiency by using ThreadPoolExecutor to scrape multiple listings concurrently",
     ],
+    repository: "https://github.com/PiersChua/webscrape",
     cardImage: "./project_thumbnail_6.png",
     modalImages: ["project_6_1.webp", "project_6_2.webp"],
     type: "Personal",

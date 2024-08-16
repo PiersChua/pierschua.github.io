@@ -13,8 +13,8 @@ const ExperienceItem = ({ experience }: Props) => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 1023) {
-        setFadeRight("fade"); // Fade animation for smaller screens
-        setFadeLeft("fade");
+        setFadeRight("custom-fade-right"); // Fade animation for smaller screens
+        setFadeLeft("custom-fade-right");
       } else {
         setFadeRight("fade-right"); // Fade slide animation for larger screens
         setFadeLeft("fade-left");

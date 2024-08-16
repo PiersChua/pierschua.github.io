@@ -51,3 +51,25 @@
     transform: translateY(0);
   }
 }
+
+[data-aos="custom-fade-right"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+  transform: translateX(15px);
+
+  &.aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+[data-aos="custom-fade-left"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+  transform: translateX(-15px);
+
+  &.aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

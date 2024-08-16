@@ -6,6 +6,7 @@ export interface Project {
   cardDesc: string;
   modalDescs: string[];
   problemStatement?: string;
+  repository?: string;
   cardImage: string;
   modalImages: string[];
   type: string;

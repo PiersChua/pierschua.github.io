@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about" id="about">
       <h1 className="title">About me</h1>
-      <div className="about-container">
+      <div className="about-container" data-aos="custom-fade-up">
         <div className="about-desc desc">
           <p>
             With a passion for leveraging technology to solve complex

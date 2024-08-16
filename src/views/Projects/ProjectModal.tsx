@@ -73,6 +73,15 @@ const ProjectModal = ({ modalVisible, closeModal, project }: Props) => {
             <li>{desc}</li>
           ))}
         </ul>
+        {project?.repository && (
+          <p className="project-repository">
+            <b className="project-modal-desc-title">Still interested? </b>
+            Check out the project in my{" "}
+            <a href={project?.repository} target="_blank">
+              GitHub
+            </a>
+          </p>
+        )}
       </Modal.Body>
       <Modal.Footer>
         <button className="modal-btn" onClick={closeModal}>

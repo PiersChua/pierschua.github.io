@@ -2,3 +2,13 @@ body {
   background-color: #000814;
   overflow-x: hidden;
 }
+
+:root {
+  --grey: #8b8c89;
+  --dark-blue: #001023;
+  --blue: #003366;
+  --blue-hover: #001f3d;
+  --turqoise-green: #20c997;
+  --white: #ffffff;
+  --black: #000000;
+}

@@ -10,7 +10,7 @@
 }
 
 .contact-links a:hover {
-  color: #8b8c89;
+  color: var(--grey);
 }
 .contact-links.small {
   display: flex;

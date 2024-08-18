@@ -19,7 +19,7 @@
   left: 50%;
   font-size: 30px;
   transform: translate(-50%, -50%);
-  color: #ffffff;
+  color: var(--white);
   opacity: 0;
   transition: 0.5s;
 }
@@ -43,13 +43,13 @@
   border: none;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  background-color: #003366;
+  color: var(--white);
+  background-color: var(--blue);
   transition: background-color 0.3s ease-in-out;
 }
 
 .card-btn:hover {
-  background-color: #001f3d;
+  background-color: var(--blue-hover);
 }
 
 @media (min-width: 1024px) {

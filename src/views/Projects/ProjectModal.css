@@ -30,7 +30,7 @@
 .project-modal-carousel-indicators .carousel-indicators-item {
   list-style-type: none;
   img {
-    border: 1px solid #000000;
+    border: 1px solid var(--black);
     cursor: pointer;
     width: auto;
     height: 30px;
@@ -57,7 +57,7 @@
   text-align: center;
   a {
     position: relative;
-    color: #20c997;
+    color: var(--turqoise-green);
     text-decoration: none;
     transition: color 0.3s ease;
   }
@@ -69,7 +69,7 @@
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: #20c997;
+    background-color: var(--turqoise-green);
     transform: scaleX(0);
     transition: 0.3s ease-in-out;
   }

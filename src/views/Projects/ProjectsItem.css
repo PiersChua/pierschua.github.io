@@ -5,14 +5,14 @@
   margin: 0 0 2rem 0;
   overflow: hidden;
   position: relative;
-  color: #ffffff;
-  background-color: #001023;
-  border: 1px solid #8b8c89;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border: 1px solid var(--grey);
   font-family: "Roboto", sans-serif;
 
   .project-item-title {
     font-size: clamp(20px, 1.8vw, 36px);
-    color: #f8f9fa;
+    color: var(--white);
     font-weight: 600;
     transition: color 0.3s ease;
     cursor: pointer;
@@ -23,7 +23,7 @@
       display: inline-block;
     }
     &:hover {
-      color: #8b8c89;
+      color: var(--grey);
       span {
         transform: translate(5px, -5px);
       }
@@ -110,7 +110,7 @@
         top: -20%;
         height: 130%;
         width: 55px;
-        background-color: #001023;
+        background-color: var(--dark-blue);
       }
     }
     .project-item-bar {

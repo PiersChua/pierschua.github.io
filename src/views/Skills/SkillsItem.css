@@ -1,7 +1,7 @@
 .skill-item {
   border-radius: 10px;
-  border: 1px solid #8b8c89;
-  background-color: #001023;
+  border: 1px solid var(--grey);
+  background-color: var(--dark-blue);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 .skill-item-title {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 600;
   font-size: clamp(18px, 1.2vw, 24px);
 }
@@ -19,7 +19,7 @@
 .skill-item ul {
   font-size: clamp(14px, 1.1vw, 20px);
   padding: 5px;
-  color: #f8f9fa;
+  color: var(--white);
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));

@@ -24,7 +24,7 @@
 }
 
 .modal-image {
-  border: 1px solid #000000;
+  border: 1px solid var(--black);
   max-height: 500px;
   width: auto;
 }
@@ -34,13 +34,13 @@
   border: none;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  background-color: #003366;
+  color: var(--white);
+  background-color: var(--blue);
   transition: background-color 0.3s ease-in-out;
 }
 
 .modal-btn:hover {
-  background-color: #001f3d;
+  background-color: var(--blue-hover);
 }
 
 @media (max-width: 1023px) {

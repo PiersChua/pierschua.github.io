@@ -8,13 +8,13 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: clamp(14px, 1.4vw, 32px);
-  color: #8b8c89;
+  color: var(--grey);
 }
 .title {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: clamp(32px, 4vw, 96px);
-  color: #ffffff;
+  color: var(--white);
   display: flex;
   width: 100%;
   justify-content: center;
@@ -25,7 +25,7 @@
 .title:before,
 .title:after {
   content: "";
-  color: #8b8c89;
+  color: var(--grey);
   border-top: 1px solid;
   margin: 0 20px 0 0;
   flex: 1 0 20px;

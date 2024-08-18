@@ -31,7 +31,7 @@
 .nav-links li a::after {
   content: "";
   position: absolute;
-  background-color: #8b8c89;
+  background-color: var(--grey);
   height: 1px;
   width: 0;
   bottom: -5%;
@@ -41,7 +41,7 @@
 .nav-links li a::before {
   content: "";
   position: absolute;
-  background-color: #8b8c89;
+  background-color: var(--grey);
   height: 1px;
   width: 0;
   bottom: -5%;
@@ -86,7 +86,7 @@
   cursor: pointer;
   transition: 0.3s;
   &:hover {
-    color: #20c997;
+    color: var(--turqoise-green);
   }
 }
 
@@ -98,7 +98,7 @@
 }
 
 .nav-sidebar-close:hover {
-  color: #20c997;
+  color: var(--turqoise-green);
 }
 
 .nav-links-sidebar {
@@ -118,7 +118,7 @@
   transition: 0.3s;
 }
 .nav-links-sidebar a:hover {
-  color: #20c997;
+  color: var(--turqoise-green);
   margin-left: -5px;
 }
 

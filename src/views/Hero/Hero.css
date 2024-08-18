@@ -11,12 +11,12 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: clamp(10px, 1vw, 28px);
-  color: #20c997;
+  color: var(--turqoise-green);
 }
 
 .hero-title {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: clamp(32px, 4vw, 96px);
-  color: #ffffff;
+  color: var(--white);
 }

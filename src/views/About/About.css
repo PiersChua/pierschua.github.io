@@ -17,7 +17,7 @@
 }
 
 .about-desc-highlight {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 500;
 }
 

@@ -15,7 +15,7 @@
   content: "";
   position: absolute;
   width: 3px;
-  background-color: #8b8c89;
+  background-color: var(--grey);
   top: 0;
   bottom: 0;
   left: 50%;

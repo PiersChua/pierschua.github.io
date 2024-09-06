@@ -48,6 +48,13 @@ export const achievements: Achievement[] = [
     cardImage: "./achievement_thumbnail_7.jpg",
     modalImage: ["./achievement_7_1.webp"],
     title: "2024 Director's List Award",
-    desc: "Recognized for outstanding academic performance, placing in the <b>top 10%</b> of sophomores at polytechnic.",
+    desc: "Recognized for outstanding academic performance, placing in the <b>top 10%</b> of sophomores at polytechnic",
+  },
+  {
+    id: 8,
+    cardImage: "./achievement_thumbnail_8.jpg",
+    modalImage: ["./achievement_8_1.webp"],
+    title: "2024 Edusave Award",
+    desc: "Honored for being among the <b>top 25%</b> in terms of academic performance and demonstrated good conduct in my sophomore year at polytechnic",
   },
 ];

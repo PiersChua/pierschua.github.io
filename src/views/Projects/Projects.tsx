@@ -38,7 +38,7 @@ const Projects = () => {
         modalVisible={modalVisible}
         closeModal={closeModal}
         project={modalProject || null}
-      ></ProjectModal>
+      />
       <div className="projects" id="projects">
         <h1 className="title">My projects</h1>
         <div className="py-4">
@@ -47,7 +47,7 @@ const Projects = () => {
               key={project.id}
               project={project}
               onSetModalVisible={handleModalVisible}
-            ></ProjectsItem>
+            />
           ))}
         </div>
       </div>

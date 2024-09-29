@@ -10,15 +10,18 @@ interface Props {
 const ProjectsItem = ({ project, onSetModalVisible }: Props) => {
   const [fadeRight, setFadeRight] = useState("");
   const [fadeLeft, setFadeLeft] = useState("");
+  const [fadeDuration, setFadeDuration] = useState(0);
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 1023) {
         setFadeRight("custom-fade-up"); // Fade animation for smaller screens
         setFadeLeft("custom-fade-up");
+        setFadeDuration(400);
       } else {
         setFadeRight("custom-fade-right"); // Fade slide animation for larger screens
         setFadeLeft("custom-fade-left");
+        setFadeDuration(800);
       }
     };
 
@@ -33,6 +36,7 @@ const ProjectsItem = ({ project, onSetModalVisible }: Props) => {
     <div
       className="project-item"
       data-aos={project.id % 2 == 0 ? fadeRight : fadeLeft}
+      data-aos-duration={fadeDuration}
     >
       <img
         className="project-item-img"

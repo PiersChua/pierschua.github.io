@@ -35,6 +35,21 @@
   margin: 0 0 0 20px;
 }
 
+.show-more-btn {
+  margin: 80px auto 0px;
+  font-size: 14px;
+  color: var(--turqoise-green);
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--turqoise-green);
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+.show-more-btn:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px var(--turqoise-green);
+}
 @media (min-width: 768px) {
 }
 

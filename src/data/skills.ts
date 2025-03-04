@@ -13,6 +13,8 @@ export const skills: Skill[] = [
       "JavaScript",
       "SQL",
       "HTML/CSS",
+      "PHP",
+      "TypeScript",
     ],
   },
   {

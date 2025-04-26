@@ -57,4 +57,11 @@ export const achievements: Achievement[] = [
     title: "2024 Edusave Award",
     desc: "Honored for being among the <b>top 25%</b> in terms of academic performance and demonstrated good conduct in my sophomore year at polytechnic",
   },
+  {
+    id: 9,
+    cardImage: "./achievement_thumbnail_9.jpg",
+    modalImage: ["./achievement_9_1.webp"],
+    title: "EP-Tec Solutions Prize",
+    desc: "Awarded for being the <b>best</b> student of the subject — System and Network Integration, in Diploma of Computer Engineering",
+  },
 ];

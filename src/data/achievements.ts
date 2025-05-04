@@ -62,6 +62,6 @@ export const achievements: Achievement[] = [
     cardImage: "./achievement_thumbnail_9.jpg",
     modalImage: ["./achievement_9_1.webp"],
     title: "EP-Tec Solutions Prize",
-    desc: "Awarded for being the <b>best</b> student of the subject — System and Network Integration, in Diploma of Computer Engineering",
+    desc: "Awarded for being the <b>best</b> student of the subject — System and Network Integration, in Diploma in Computer Engineering",
   },
 ];

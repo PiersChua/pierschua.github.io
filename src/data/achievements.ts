@@ -64,4 +64,18 @@ export const achievements: Achievement[] = [
     title: "EP-Tec Solutions Prize",
     desc: "Awarded for being the <b>best</b> student of the subject — System and Network Integration, in Diploma in Computer Engineering",
   },
+  {
+    id: 10,
+    cardImage: "./achievement_thumbnail_10.jpg",
+    modalImage: ["./achievement_10_1.webp"],
+    title: "Certificate of Achievement",
+    desc: "Completed 3 core LEAD modules: LEAD Induction, LEAD Heart and LEAD Summit",
+  },
+  {
+    id: 11,
+    cardImage: "./achievement_thumbnail_11.jpg",
+    modalImage: ["./achievement_11_1.webp", "./achievement_11_2.webp"],
+    title: "2025 Edusave Award",
+    desc: "Honored for being among the <b>top 15%</b> in terms of academic performance and demonstrated good conduct in my graduating year at polytechnic",
+  },
 ];

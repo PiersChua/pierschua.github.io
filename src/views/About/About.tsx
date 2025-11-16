@@ -14,15 +14,15 @@ const About = () => {
           </p>
           <br />
           <p>
-            Currently, I am a final year student pursuing a Diploma in
+            Today, I am a proud graduate with a Diploma in
             <span className="about-desc-highlight">
               {" "}
-              Computer Engineering
+              Computer Engineering with Merit
             </span>{" "}
-            at Temasek Polytechnic
+            from Temasek Polytechnic
           </p>
         </div>
-        <img className="about-logo" src="./ABOUT.jpeg" />
+        <img className="about-logo" src="./ABOUT.jpg" />
       </div>
     </div>
   );

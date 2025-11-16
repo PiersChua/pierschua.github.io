@@ -211,7 +211,7 @@ export const projects: Project[] = [
       "Designed a portal for administrators to monitor and manage recycling data related to the bins and users",
       "Showcased the product at Sustainablity Seedling Summit to key stakeholders and environmentalists",
       "Deployed AIRS in TP campus on Earth Day 2025",
-      "Represented Temasek Polytechnic to participate in the Lee Hsien Loong Interactive Digital Media Smart Nation Award 2025",
+      "Achieved top 10 finalists in the Lee Hsien Loong Interactive Digital Media Smart Nation Award 2025",
     ],
     problemStatement:
       "Singapore faces a critical challenge with waste management. According to a report by the National Environment Agency, the nation's recycling rate has declined by 10% over the past decade. This issue is reflected in Temasek Polytechnic's (TP) 18.4% increase in waste disposal index from 2022 to 2023, largely due to an increase in physical events. It was later found that 40% of TP's general waste could have been recycled, but inefficiencies in waste segregation led to contamination, rendering these recyclables unrecoverable. Based on these statistics, it is clear that the problem stems from a lack of awareness and engagement among consumers.",

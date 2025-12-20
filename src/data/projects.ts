@@ -24,7 +24,7 @@ export const projects: Project[] = [
     title: "Food Ordering System",
     startDate: "Apr 2023",
     endDate: "Sep 2023",
-    cardDesc: "A food ordering application built in Eclipse",
+    cardDesc: "Food ordering application built in Eclipse",
     modalDescs: [
       "Developed the app's interface with Java's swing library",
       "Implemented Model-View-Controller (MVC) design to separate business logic, data and GUI",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
       "Designed a Grafana dashboard to visualize time-series sensor data",
     ],
     problemStatement:
-      "A real estate developer is seeking a smart home system for their condominium project with specific features to enhance the residents' comfort, convenience, and energy efficiency. Through the use of smart devices, he/she would be able to remotely access the home appliances.",
+      "real estate developer is seeking a smart home system for their condominium project with specific features to enhance the residents' comfort, convenience, and energy efficiency. Through the use of smart devices, he/she would be able to remotely access the home appliances.",
     modalImages: [
       "./project_4_1.webp",
       "./project_4_2.webp",
@@ -146,7 +146,7 @@ export const projects: Project[] = [
     title: "Fit SG",
     startDate: "Aug 2024",
     endDate: "Sep 2024",
-    cardDesc: "A remake of Active SG's gym website",
+    cardDesc: "Remake of Active SG's gym website",
     modalDescs: [
       "Implemented authentication with Next-Auth v5.0, including OAuth providers and JWT-based sessions",
       "Utilized Next.js's server actions with Prisma ORM to perform CRUD operations",
@@ -228,5 +228,28 @@ export const projects: Project[] = [
     ],
     type: "Final Year Project",
     skills: ["Next.js", "TypeScript", "PostgreSQL", "Vercel"],
+  },
+  {
+    id: 10,
+    title: "BeautyBest",
+    startDate: "Dec 2025",
+    endDate: "Dec 2025",
+    cardDesc: "A sample website for beauty and wellness businesses",
+    modalDescs: [
+      "Designed a fully mobile-responsive website to provide a smooth user experience across devices",
+      "Implemented interactive UI components to enhance client engagement",
+      "Optimized performance and SEO to improve page load times and search engine visibility",
+    ],
+    problemStatement:
+      "Many businesses struggle with establishing a professional online presence that attracts clients. A well-designed website can increase client engagement and enhance credibility, ultimately driving higher sales and growth.",
+    cardImage: "./project_thumbnail_10.png",
+    webUrl: "https://piers-template-beauty-best.netlify.app/",
+    modalImages: [
+      "./project_10_1.webp",
+      "./project_10_2.webp",
+      "./project_10_3.webp",
+    ],
+    type: "Template",
+    skills: ["Next.js", "TypeScript", "Netlify", "SEO"],
   },
 ];

@@ -52,8 +52,10 @@ const ProjectsItem = ({ project, onSetModalVisible }: Props) => {
           {project.title} <span className="bi bi-arrow-up-right"></span>
         </h2>
         <small>
-          <span className="bi bi-calendar3"></span> {project.startDate} -{" "}
-          {project.endDate}
+          <span className="bi bi-calendar3"></span>{" "}
+          {project.startDate !== project.endDate
+            ? `${project.startDate} - ${project.endDate}`
+            : project.startDate}
         </small>
         <div className="project-item-bar"></div>
         <div className="project-item-desc">{project.cardDesc}</div>

@@ -1,0 +1,85 @@
+.footer {
+  padding: 150px 15% 0 15%;
+}
+
+/* Full-width divider */
+.footer-divider {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  height: 1px;
+  background-color: var(--grey);
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 4rem;
+}
+
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.footer-logo {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+.footer-brand,
+.footer-nav,
+.footer-contact {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-tagline {
+  color: var(--grey);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+/* Section headers */
+.footer h4 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--white);
+}
+
+/* Lists */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 0.6rem;
+}
+
+/* Links */
+.footer a {
+  color: var(--grey);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--white);
+}
+
+.footer-contact span {
+  color: #f8f9fa;
+  margin: 0 6px 0 2px;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #737373;
+}

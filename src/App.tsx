@@ -8,6 +8,7 @@ import Projects from "./views/Projects/Projects";
 import "./App.css";
 import { useEffect } from "react";
 import AOS from "aos";
+import Footer from "./views/Footer/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -22,12 +23,13 @@ const App = () => {
     <>
       <Navbar></Navbar>
       <div className="content">
-        <Hero></Hero>
-        <About></About>
-        <Experience></Experience>
-        <Skills></Skills>
-        <Achievements></Achievements>
-        <Projects></Projects>
+        <Hero />
+        <About />
+        <Experience />
+        <Skills />
+        <Achievements />
+        <Projects />
+        <Footer />
       </div>
     </>
   );

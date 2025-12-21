@@ -28,7 +28,7 @@
 }
 
 .timeline-card p {
-  text-align: justify;
+  text-wrap-style: pretty;
   font-size: clamp(14px, 1.1vw, 20px);
 }
 

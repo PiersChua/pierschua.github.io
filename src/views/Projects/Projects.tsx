@@ -41,7 +41,7 @@ const Projects = () => {
       />
       <div className="projects" id="projects">
         <h1 className="title">My projects</h1>
-        <div className="py-4">
+        <div>
           {sortedProjects.map((project) => (
             <ProjectsItem
               key={project.id}

@@ -9,14 +9,25 @@ const Contact = ({ isSmallDisplay = false }: Props) => {
       <a
         href="https://www.linkedin.com/in/piers-chua/"
         target="_blank"
+        rel="noopener noreferrer"
         title="LinkedIn"
       >
         <span className="bi bi-linkedin"></span>
       </a>
-      <a href="mailto:pierschua@gmail.com" target="_blank" title="Email">
+      <a
+        href="mailto:pierschua@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Email"
+      >
         <span className="bi bi-envelope-fill"></span>
       </a>
-      <a href="./CHUAZHENGLONGPIERS_Resume.pdf" target="_blank" title="Resume">
+      <a
+        href="./CHUAZHENGLONGPIERS_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Resume"
+      >
         <span className="bi bi-file-earmark-person-fill"></span>
       </a>
     </div>

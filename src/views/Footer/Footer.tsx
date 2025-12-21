@@ -63,7 +63,7 @@ const Footer = () => {
               <span className="bi bi-linkedin" />
 
               <a
-                href="https://www.linkedin.com/in/your-linkedin"
+                href="https://www.linkedin.com/in/piers-chua/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +74,7 @@ const Footer = () => {
               <span className="bi bi-github" />
 
               <a
-                href="https://github.com/pierschua"
+                href="https://github.com/PiersChua"
                 target="_blank"
                 rel="noopener noreferrer"
               >

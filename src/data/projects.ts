@@ -238,6 +238,7 @@ export const projects: Project[] = [
     modalDescs: [
       "Designed a fully mobile-responsive website to provide a smooth user experience across devices",
       "Implemented interactive UI components to enhance client engagement",
+      "Integrated Cloudflare CDN to improve website performance and security",
       "Optimized performance and SEO to improve page load times and search engine visibility",
     ],
     problemStatement:
@@ -250,6 +251,6 @@ export const projects: Project[] = [
       "./project_10_3.webp",
     ],
     type: "Template",
-    skills: ["Next.js", "TypeScript", "Netlify", "SEO"],
+    skills: ["Next.js", "TypeScript", "Netlify", "Cloudflare", "SEO"],
   },
 ];

@@ -40,10 +40,6 @@ const Footer = () => {
           <h4>Connect</h4>
           <ul>
             <li>
-              <span className="bi bi-telephone-fill" />
-              <a href="tel:+6587279695">+65 87279695</a>
-            </li>
-            <li>
               <span className="bi bi-envelope-fill" />
 
               <a href="mailto:pierschua@gmail.com">pierschua@gmail.com</a>

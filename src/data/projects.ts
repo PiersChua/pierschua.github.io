@@ -1,4 +1,87 @@
 import { Project } from "../types/project";
+// Project 1
+import p1_1 from "../assets/project_1_1.webp";
+import p1_2 from "../assets/project_1_2.webp";
+
+// Project 2
+import p2_1 from "../assets/project_2_1.webp";
+import p2_2 from "../assets/project_2_2.webp";
+import p2_3 from "../assets/project_2_3.webp";
+import p2_4 from "../assets/project_2_4.webp";
+
+// Project 3
+import p3_1 from "../assets/project_3_1.webp";
+import p3_2 from "../assets/project_3_2.webp";
+import p3_3 from "../assets/project_3_3.webp";
+import p3_4 from "../assets/project_3_4.webp";
+import p3_5 from "../assets/project_3_5.webp";
+
+// Project 4
+import p4_1 from "../assets/project_4_1.webp";
+import p4_2 from "../assets/project_4_2.webp";
+import p4_3 from "../assets/project_4_3.webp";
+import p4_4 from "../assets/project_4_4.webp";
+import p4_5 from "../assets/project_4_5.webp";
+import p4_6 from "../assets/project_4_6.webp";
+import p4_7 from "../assets/project_4_7.webp";
+
+// Project 5
+import p5_1 from "../assets/project_5_1.webp";
+import p5_2 from "../assets/project_5_2.webp";
+import p5_3 from "../assets/project_5_3.webp";
+import p5_4 from "../assets/project_5_4.webp";
+import p5_5 from "../assets/project_5_5.webp";
+import p5_6 from "../assets/project_5_6.webp";
+import p5_7 from "../assets/project_5_7.webp";
+
+// Project 6
+import p6_1 from "../assets/project_6_1.webp";
+import p6_2 from "../assets/project_6_2.webp";
+import p6_3 from "../assets/project_6_3.webp";
+import p6_4 from "../assets/project_6_4.webp";
+import p6_5 from "../assets/project_6_5.webp";
+
+// Project 7
+import p7_1 from "../assets/project_7_1.webp";
+import p7_2 from "../assets/project_7_2.webp";
+import p7_3 from "../assets/project_7_3.webp";
+import p7_4 from "../assets/project_7_4.webp";
+import p7_5 from "../assets/project_7_5.webp";
+import p7_6 from "../assets/project_7_6.webp";
+import p7_7 from "../assets/project_7_7.webp";
+import p7_8 from "../assets/project_7_8.webp";
+import p7_9 from "../assets/project_7_9.webp";
+
+// Project 8
+import p8_1 from "../assets/project_8_1.webp";
+import p8_2 from "../assets/project_8_2.webp";
+import p8_3 from "../assets/project_8_3.webp";
+import p8_4 from "../assets/project_8_4.webp";
+import p8_5 from "../assets/project_8_5.webp";
+import p8_6 from "../assets/project_8_6.webp";
+import p8_7 from "../assets/project_8_7.webp";
+import p8_8 from "../assets/project_8_8.webp";
+import p8_9 from "../assets/project_8_9.webp";
+
+// Project 9
+import p9_1 from "../assets/project_9_1.webp";
+import p9_2 from "../assets/project_9_2.webp";
+import p9_3 from "../assets/project_9_3.webp";
+import p9_4 from "../assets/project_9_4.webp";
+import p9_5 from "../assets/project_9_5.webp";
+import p9_6 from "../assets/project_9_6.webp";
+import p9_7 from "../assets/project_9_7.webp";
+import p9_8 from "../assets/project_9_8.webp";
+
+// Project 10
+import p10_1 from "../assets/project_10_1.webp";
+import p10_2 from "../assets/project_10_2.webp";
+import p10_3 from "../assets/project_10_3.webp";
+
+// Project 11
+import p11_1 from "../assets/project_11_1.webp";
+import p11_2 from "../assets/project_11_2.webp";
+import p11_3 from "../assets/project_11_3.webp";
 export const projects: Project[] = [
   {
     id: 1,
@@ -15,10 +98,7 @@ export const projects: Project[] = [
     problemStatement:
       "According to the Congressional Research Service (CRS), there were an average of 61,410 wildfires annually from 2013 to 2022, generating over 7.2 million acres of impact. With its increasing frequency, severity, and duration, wildfire exist as a grave issue in the United States. Therefore, analyzing wildfires is crucial to help relevant agencies understand its patterns, behaviors, and characteristics.",
     cardImage: "./project_thumbnail_1.png",
-    modalImages: [
-      "./src/assets/project_1_1.webp",
-      "./src/assets/project_1_2.webp",
-    ],
+    modalImages: [p1_1, p1_2],
     type: "Coursework",
     skills: ["Tableau", "KNIME"],
   },
@@ -36,12 +116,7 @@ export const projects: Project[] = [
     problemStatement:
       "Customers at hawker centres often face long queues and wait times when ordering their food and drinks, leading to inconvenience and inefficiency. As such, there is a need for a streamlined ordering system that allows customers to conveniently place orders, reducing wait times and improving the overall dining experience.",
     cardImage: "./project_thumbnail_2.png",
-    modalImages: [
-      "./src/assets/project_2_1.webp",
-      "./src/assets/project_2_2.webp",
-      "./src/assets/project_2_3.webp",
-      "./src/assets/project_2_4.webp",
-    ],
+    modalImages: [p2_1, p2_2, p2_3, p2_4],
     type: "Coursework",
     skills: ["Java", "UML", "OOP", "MVC"],
   },
@@ -58,13 +133,7 @@ export const projects: Project[] = [
       "Implemented image classification API service to deploy the trained model in a flask app",
     ],
     cardImage: "./project_thumbnail_3.png",
-    modalImages: [
-      "./src/assets/project_3_1.webp",
-      "./src/assets/project_3_2.webp",
-      "./src/assets/project_3_3.webp",
-      "./src/assets/project_3_4.webp",
-      "./src/assets/project_3_5.webp",
-    ],
+    modalImages: [p3_1, p3_2, p3_3, p3_4, p3_5],
     type: "Coursework",
     skills: ["Python", "Tensorflow"],
   },
@@ -84,15 +153,7 @@ export const projects: Project[] = [
     ],
     problemStatement:
       "real estate developer is seeking a smart home system for their condominium project with specific features to enhance the residents' comfort, convenience, and energy efficiency. Through the use of smart devices, he/she would be able to remotely access the home appliances.",
-    modalImages: [
-      "./src/assets/project_4_1.webp",
-      "./src/assets/project_4_2.webp",
-      "./src/assets/project_4_3.webp",
-      "./src/assets/project_4_4.webp",
-      "./src/assets/project_4_5.webp",
-      "./src/assets/project_4_6.webp",
-      "./src/assets/project_4_7.webp",
-    ],
+    modalImages: [p4_1, p4_2, p4_3, p4_4, p4_5, p4_6, p4_7],
     type: "Coursework",
     skills: ["Python", "Ubuntu", "Grafana", "Raspberry Pi", "InfluxDB"],
   },
@@ -108,15 +169,7 @@ export const projects: Project[] = [
     ],
     repository: "https://github.com/PiersChua/RestaurantReservation",
     cardImage: "./project_thumbnail_5.png",
-    modalImages: [
-      "./src/assets/project_5_1.webp",
-      "./src/assets/project_5_2.webp",
-      "./src/assets/project_5_3.webp",
-      "./src/assets/project_5_4.webp",
-      "./src/assets/project_5_5.webp",
-      "./src/assets/project_5_6.webp",
-      "./src/assets/project_5_7.webp",
-    ],
+    modalImages: [p5_1, p5_2, p5_3, p5_4, p5_5, p5_6, p5_7],
     type: "Coursework",
     skills: ["ASP.NET Blazor", "Entity Framework Core", "Git", "MySQL"],
   },
@@ -134,13 +187,7 @@ export const projects: Project[] = [
       "Being the primary person responsible for research when traveling, I often spend countless hours navigating through options to find the perfect place to stay. The time-consuming process of comparing amenities, prices, and locations was overwhelming and inefficient, which can be frustrating at times. To streamline this experience, I decided to develop a solution that accelerates the search for ideal accommodations.",
     repository: "https://github.com/PiersChua/webscrape",
     cardImage: "./project_thumbnail_6.png",
-    modalImages: [
-      "./src/assets/project_6_1.webp",
-      "./src/assets/project_6_2.webp",
-      "./src/assets/project_6_3.webp",
-      "./src/assets/project_6_4.webp",
-      "./src/assets/project_6_5.webp",
-    ],
+    modalImages: [p6_1, p6_2, p6_3, p6_4, p6_5],
     type: "Personal",
     skills: ["Python", "BeautifulSoup4", "Selenium"],
   },
@@ -160,17 +207,7 @@ export const projects: Project[] = [
       "As an avid gym bro in ActiveSG, I enjoy working out with others. Following the recent updates, I've noticed that the ActiveSG website falls short in certain areas. While it provides basic functionality, it lacks an engaging design with no call to action. The absence of interactive features and an appealing user experience makes it difficult to encourage the general public to participate in fitness activities. This is why i created Fit SG to inspire new users to stay active, while offering current users enhanced features all in a single platform.",
     repository: "https://github.com/PiersChua/nextjs-activesg",
     cardImage: "./project_thumbnail_7.png",
-    modalImages: [
-      "./src/assets/project_7_1.webp",
-      "./src/assets/project_7_2.webp",
-      "./src/assets/project_7_3.webp",
-      "./src/assets/project_7_4.webp",
-      "./src/assets/project_7_5.webp",
-      "./src/assets/project_7_6.webp",
-      "./src/assets/project_7_7.webp",
-      "./src/assets/project_7_8.webp",
-      "./src/assets/project_7_9.webp",
-    ],
+    modalImages: [p7_1, p7_2, p7_3, p7_4, p7_5, p7_6, p7_7, p7_8, p7_9],
     type: "Personal",
     skills: ["Next.js", "TypeScript", "PostgreSQL"],
   },
@@ -189,17 +226,7 @@ export const projects: Project[] = [
     repository:
       "https://github.com/PiersChua/TP_MDAD_AndroidStudio_JobApplication",
     cardImage: "./project_thumbnail_8.png",
-    modalImages: [
-      "./src/assets/project_8_1.webp",
-      "./src/assets/project_8_2.webp",
-      "./src/assets/project_8_3.webp",
-      "./src/assets/project_8_4.webp",
-      "./src/assets/project_8_5.webp",
-      "./src/assets/project_8_6.webp",
-      "./src/assets/project_8_7.webp",
-      "./src/assets/project_8_8.webp",
-      "./src/assets/project_8_9.webp",
-    ],
+    modalImages: [p8_1, p8_2, p8_3, p8_4, p8_5, p8_6, p8_7, p8_8, p8_9],
     type: "Coursework",
     skills: ["Java", "PHP", "Android Studio", "MySQL"],
   },
@@ -219,16 +246,7 @@ export const projects: Project[] = [
     problemStatement:
       "Singapore faces a critical challenge with waste management. According to a report by the National Environment Agency, the nation's recycling rate has declined by 10% over the past decade. This issue is reflected in Temasek Polytechnic's (TP) 18.4% increase in waste disposal index from 2022 to 2023, largely due to an increase in physical events. It was later found that 40% of TP's general waste could have been recycled, but inefficiencies in waste segregation led to contamination, rendering these recyclables unrecoverable. Based on these statistics, it is clear that the problem stems from a lack of awareness and engagement among consumers.",
     cardImage: "./project_thumbnail_9.png",
-    modalImages: [
-      "./src/assets/project_9_1.webp",
-      "./src/assets/project_9_2.webp",
-      "./src/assets/project_9_3.webp",
-      "./src/assets/project_9_4.webp",
-      "./src/assets/project_9_5.webp",
-      "./src/assets/project_9_6.webp",
-      "./src/assets/project_9_7.webp",
-      "./src/assets/project_9_8.webp",
-    ],
+    modalImages: [p9_1, p9_2, p9_3, p9_4, p9_5, p9_6, p9_7, p9_8],
     type: "Final Year Project",
     skills: ["Next.js", "TypeScript", "PostgreSQL", "Vercel"],
   },
@@ -248,11 +266,7 @@ export const projects: Project[] = [
       "Many businesses struggle with establishing a professional online presence that attracts clients. A well-designed website can increase client engagement and enhance credibility, ultimately driving higher sales and growth.",
     cardImage: "./project_thumbnail_10.png",
     webUrl: "https://piers-template-beauty-best.netlify.app/",
-    modalImages: [
-      "./src/assets/project_10_1.webp",
-      "./src/assets/project_10_2.webp",
-      "./src/assets/project_10_3.webp",
-    ],
+    modalImages: [p10_1, p10_2, p10_3],
     type: "Template",
     skills: ["Next.js", "TypeScript", "Netlify", "Cloudflare", "SEO"],
   },
@@ -271,11 +285,7 @@ export const projects: Project[] = [
       "Automotive businesses often rely on word-of-mouth but struggle to convert online visitors into real customers. This project demonstrates how a well-structured, high-performance website can showcase services clearly, build confidence, and serve as a powerful lead-generation tool for businesses looking to grow online.",
     cardImage: "./project_thumbnail_11.png",
     webUrl: "https://piers-template-autopro.netlify.app/",
-    modalImages: [
-      "./src/assets/project_11_1.webp",
-      "./src/assets/project_11_2.webp",
-      "./src/assets/project_11_3.webp",
-    ],
+    modalImages: [p11_1, p11_2, p11_3],
     type: "Template",
     skills: ["Next.js", "TypeScript", "Netlify", "SEO"],
   },

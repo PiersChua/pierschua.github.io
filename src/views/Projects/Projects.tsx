@@ -3,7 +3,7 @@ import ProjectModal from "./ProjectModal";
 import "./Projects.css";
 import { projects } from "../../data/projects";
 import { Project } from "../../types/project";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Projects = () => {
   const sortedProjects = projects.sort((a, b) => {

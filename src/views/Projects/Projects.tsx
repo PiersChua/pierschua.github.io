@@ -21,17 +21,17 @@ const Projects = () => {
   const closeModal = () => {
     setModalVisible(false);
   };
-  const preloadImages = (images: string[]) => {
-    images.forEach((src) => {
-      const img = new Image();
-      img.src = src;
-    });
-  };
+  // const preloadImages = (images: string[]) => {
+  //   images.forEach((src) => {
+  //     const img = new Image();
+  //     img.src = src;
+  //   });
+  // };
 
-  useEffect(() => {
-    const allImages = sortedProjects.flatMap((project) => project.modalImages);
-    preloadImages(allImages);
-  }, []);
+  // useEffect(() => {
+  //   const allImages = sortedProjects.flatMap((project) => project.modalImages);
+  //   preloadImages(allImages);
+  // }, []);
   return (
     <div>
       <ProjectModal

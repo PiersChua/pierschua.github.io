@@ -241,8 +241,6 @@ export const projects: Project[] = [
       "Integrated Cloudflare CDN to improve website performance and security",
       "Optimised performance and SEO to improve page load times and search engine visibility",
     ],
-    problemStatement:
-      "Many businesses struggle with establishing a professional online presence that attracts clients. A well-designed website can increase client engagement and enhance credibility, ultimately driving higher sales and growth.",
     cardImage: "./project_thumbnail_10.png",
     webUrl: "https://piers-template-beauty-best.netlify.app/",
     modalImages: [
@@ -258,14 +256,12 @@ export const projects: Project[] = [
     title: "AutoPro",
     startDate: "Jan 2025",
     endDate: "Jan 2025",
-    cardDesc: "A sample website for automotive servicing and repair businesses",
+    cardDesc: "A sample website for automotive service businesses",
     modalDescs: [
       "Crafted a modern Multi-Page Application (MPA) that builds trust and look professional online",
       "Structured business content with a clear, chronological flow to guide visitor's enquiries",
       "Applied best SEO practices to help the website rank higher on search engines",
     ],
-    problemStatement:
-      "Automotive businesses often rely on word-of-mouth but struggle to convert online visitors into real customers. This project demonstrates how a well-structured, high-performance website can showcase services clearly, build confidence, and serve as a powerful lead-generation tool for businesses looking to grow online.",
     cardImage: "./project_thumbnail_11.png",
     webUrl: "https://piers-template-autopro.netlify.app/",
     modalImages: [

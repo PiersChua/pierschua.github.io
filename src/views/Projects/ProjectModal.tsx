@@ -41,9 +41,13 @@ const ProjectModal = ({ modalVisible, closeModal, project }: Props) => {
           onSelect={handleSelect}
           indicators={false}
         >
-          {project?.modalImages.map((image) => (
-            <Carousel.Item className="project-modal-carousel-item">
-              <img src={image} />
+          {project?.modalImages.map((image, index) => (
+            <Carousel.Item key={index} className="project-modal-carousel-item">
+              <img
+                src={image}
+                alt={`${project?.title} screenshot ${index + 1}`}
+                loading="lazy"
+              />
             </Carousel.Item>
           ))}
         </Carousel>
@@ -57,7 +61,11 @@ const ProjectModal = ({ modalVisible, closeModal, project }: Props) => {
               }`}
               onClick={() => handleSelect(index)}
             >
-              <img src={image} alt={`Thumbnail ${index}`} />
+              <img
+                src={image}
+                alt={`${project?.title} thumbnail ${index + 1}`}
+                loading="lazy"
+              />
             </li>
           ))}
         </ul>

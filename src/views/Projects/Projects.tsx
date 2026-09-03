@@ -40,7 +40,7 @@ const Projects = () => {
         project={modalProject || null}
       />
       <div className="projects" id="projects">
-        <h1 className="title">My projects</h1>
+        <h2 className="title">My projects</h2>
         <div>
           {sortedProjects.map((project) => (
             <ProjectsItem

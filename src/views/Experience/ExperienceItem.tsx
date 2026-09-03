@@ -32,7 +32,8 @@ const ExperienceItem = ({ experience }: Props) => {
     <div className={`timeline ${experience.id % 2 == 0 ? "left" : "right"}`}>
       <img
         src={experience.timelineImage}
-        alt="Timeline circle"
+        alt=""
+        aria-hidden="true"
         className="timeline-img"
       />
       <Card
@@ -42,7 +43,7 @@ const ExperienceItem = ({ experience }: Props) => {
         <Card.Body className="p-4">
           <h3>
             {experience.title}
-            <img src={experience.titleImage} />
+            <img src={experience.titleImage} alt="" aria-hidden="true" />
           </h3>
           <p className="mb-0">{experience.desc}</p>
         </Card.Body>

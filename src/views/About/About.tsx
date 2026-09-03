@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about" id="about">
-      <h1 className="title">About me</h1>
+      <h2 className="title">About me</h2>
       <div className="about-container" data-aos="custom-fade-up">
         <div className="about-desc desc">
           <p>
@@ -22,7 +22,12 @@ const About = () => {
             from Temasek Polytechnic
           </p>
         </div>
-        <img className="about-logo" src="./ABOUT.jpg" />
+        <img
+          className="about-logo"
+          src="./ABOUT.jpg"
+          alt="Portrait of Piers Chua"
+          loading="lazy"
+        />
       </div>
     </div>
   );

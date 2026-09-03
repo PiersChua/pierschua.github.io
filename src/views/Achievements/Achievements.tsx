@@ -49,7 +49,7 @@ const Achievements = () => {
         achievement={modalAchievement || null}
       />
       <div className="achievements" id="achievements">
-        <h1 className="title">My achievements</h1>
+        <h2 className="title">My achievements</h2>
         <div className="achievements-container">
           {sortedAchievements.slice(0, 6).map((data) => (
             <AchievementsItem

@@ -8,7 +8,7 @@ const Experience = () => {
   });
   return (
     <div className="experience" id="experience">
-      <h1 className="title">My experience</h1>
+      <h2 className="title">My experience</h2>
       <div className="experience-container py-5">
         <div className="main-timeline">
           {sortedExperiences.map((experience) => (

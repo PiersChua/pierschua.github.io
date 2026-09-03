@@ -41,16 +41,18 @@ const ProjectsItem = ({ project, onSetModalVisible }: Props) => {
       <img
         className="project-item-img"
         src={project.cardImage}
-        alt={project.title}
+        alt={`${project.title} project thumbnail`}
+        loading="lazy"
+        decoding="async"
       />
       <div className="project-item-content">
-        <h2
+        <h3
           className="project-item-title"
           title="View Project"
           onClick={() => onSetModalVisible(project.id)}
         >
           {project.title} <span className="bi bi-arrow-up-right"></span>
-        </h2>
+        </h3>
         <small>
           <span className="bi bi-calendar3"></span>{" "}
           {project.startDate !== project.endDate

@@ -15,11 +15,17 @@ const AchievementsItem = ({ achievement, onSetModalVisible }: Props) => {
           title="View Achievement"
           onClick={() => onSetModalVisible(achievement.id)}
         >
-          <img src={achievement.cardImage} className="card-img-top" alt="..." />
+          <img
+            src={achievement.cardImage}
+            className="card-img-top"
+            alt={`${achievement.title} award certificate`}
+            loading="lazy"
+            decoding="async"
+          />
           <span className="bi bi-box-arrow-up-right"></span>
         </a>
         <Card.Body>
-          <h5 className="card-title">{achievement.title}</h5>
+          <h3 className="card-title">{achievement.title}</h3>
           <p
             className="card-text"
             dangerouslySetInnerHTML={{ __html: achievement.desc }}

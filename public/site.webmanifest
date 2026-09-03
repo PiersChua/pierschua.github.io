@@ -1,0 +1,22 @@
+{
+  "name": "Piers Chua — Portfolio",
+  "short_name": "Piers Chua",
+  "description": "Portfolio of Piers Chua, Computer Engineering graduate and software developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/LOGO.png",
+      "sizes": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "/pc-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

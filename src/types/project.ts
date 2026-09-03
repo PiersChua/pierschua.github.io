@@ -8,6 +8,7 @@ export interface Project {
   problemStatement?: string;
   repository?: string;
   webUrl?: string;
+  projectUrl?: string;
   cardImage: string;
   modalImages: string[];
   type: string;
